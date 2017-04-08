@@ -11,10 +11,10 @@ Une implémentation python d'un bot IRC, utilisant le moteur de recherche Elasti
 Soumis à la license GNU GPL3
 
 ## Contenu du repertoire
-Il est recommandé de disposer de l'ensemble des droits sur les fichiers du projet, à obtenir via `chmod -R u+xwr ElastiChat/`
+Il est recommandé de disposer de l'ensemble des droits sur les fichiers du projet, à obtenir via `chmod -R u+xwr src/`
 
 ### Dossiers
-- `ElastiChat/`: Contient le moteur de recherche et le bot
+- `src/`: Contient le moteur de recherche et le bot
 - `indexation/`: Fichiers permettant l'indexation de fichier customisés
 
 ### Fichiers
