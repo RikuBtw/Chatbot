@@ -8,7 +8,7 @@ fi
 
 ssh -f -N -L:2222:irc6.geo.oftc.net:6667 ${1}@bastion.etu.univ-nantes.fr
 echo "Initialisation du bot"
-python ./ElastiChat/bot.py 2222
+python ./src/bot.py 2222
 echo "Bot interrompu"
 
 exit 0
