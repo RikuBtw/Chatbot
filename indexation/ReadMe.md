@@ -17,7 +17,7 @@ Soumis à la license GNU GPL3
 
 ### Fichiers
 - `indexation_custom.sh` : Lancement de l'indexation d'un fichier dans une base, tous deux mis en paramètres.
-- `sub_2_elastic.sh` : Script de nettoyage de fichier de sous-titres.
+- `sub_2_elastic.sh` : Script de nettoyage de fichier de sous-titres appellé par indexation_custom.sh .
 - `index_base.txt` : Fichier à indexer dans la base.
 
 
