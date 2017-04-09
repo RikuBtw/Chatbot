@@ -46,15 +46,12 @@ Ainsi, on copie/collera ce fichier vers le dossier Chatbot/indexation qui n'est 
 
 Ensuite, on se place dans ce même dossier dans le terminal.
 
-Puis, on lance le script sub_2_elastic.sh permettant de nettoyer le fichier choisi avec la commande suivante afin de le rendre compréhensible par la suite:
-
-./sub\_2\_elastic.sh *fichier_de_sous\_titres*.
-
-Une fois ceci fait, on obtient un fichier avec une terminaison en .propre.
 
 Ce fichier va ensuite pouvoir être indexé sur le bot avec le fichier indexation_custom situé dans Chatbot/indexation avec la commande suivante :
 
-./indexation\_custom *fichier\_.propre*   *nom\_de\_la\_base\_dans\_laquelle\_indexer*.
+./indexation\_custom *fichier_de_sous\_titres*   *nom\_de\_la\_base\_dans\_laquelle\_indexer*.
+
+Il va lancer le script sub_2_elastic.sh permettant de nettoyer le fichier choisi en appelant sub_2_elastic.sh afin de le rendre compréhensible par la suite et qu'il soit traité pour la base.
 
 Une fois ceci fait, la base a bien reçu l'ajout des sous-titres du film.
 
