@@ -20,14 +20,6 @@ Soumis à la license GNU GPL3
 - `sub_2_elastic.sh` : Script de nettoyage de fichier de sous-titres appellé par indexation_custom.sh .
 - `index_base.txt` : Fichier à indexer dans la base.
 
-
-## Pré-Requis
-- Python 2.7 et 3.0
-- unrealircd, nécessaire à la création de serveur local
-- Système GNU/Linux - Compatibilité sur d'autres systèmes non vérifiée
-- Client IRC
-- Si installation manuelle, ElasticSearch 5.0 ou supérieur
-
 ## Utilisation 
 Afin d'augmenter la base de données du bot, il est possible de récupérer de nombreux sous-titres à l'adresse suivante:
 http://opus.lingfil.uu.se/OpenSubtitles2016.php
